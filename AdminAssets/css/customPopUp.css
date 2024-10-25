@@ -1,0 +1,38 @@
+
+
+
+
+.popEditHeader,
+.bodyEdit {
+    background-color: #c1cbd7;
+    padding: 25px;
+}
+
+.modal-content-pop{
+
+    background: #0e1726;
+    border-radius: 1rem !important;
+}
+
+
+.popEditHeader{
+    border-color: #0e1726;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+}
+
+
+
+.labelEdit-color{
+    color: #0e1726;
+    font-size: 18px;
+    font-weight: 500;
+}

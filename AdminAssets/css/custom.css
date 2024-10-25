@@ -1,0 +1,199 @@
+#TitleColor {
+    color: #efbb34;
+}
+
+
+.table td {
+    max-width: 20%;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: auto;
+}
+
+.dataTables_filter {
+    flex-grow: 1;
+    max-width: 200px;
+    /* حجم أقصى لحقل البحث */
+}
+
+@media (max-width: 768px) {
+    .dataTables_filter {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.btn-saveChanges {
+    color: #fff !important;
+    background-color: #cd7f28 !important;
+    border-color: #e5e7ed;
+    box-shadow: 0 10px 20px -10px rgba(27, 85, 226, 0.59);
+}
+
+
+.modal-header {
+    background-color: #c4c5c2 !important;
+    border-color: #ffffff;
+    color: #fff;
+}
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.nested-list {
+    list-style-type: none;
+    display: none;
+}
+
+.nested-item {
+    padding: 5px 3em;
+    cursor: pointer;
+}
+
+.menu.active .nested-list {
+    display: block;
+}
+
+.nested-item::before {
+    content: "•";
+    color: #5a6078;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.hafezList,
+.activeUserList,
+.inactiveUserList {
+    display: none;
+}
+
+/* ................................................ */
+/* جدول الطلاب والمشرفين */
+.student-row {
+    display: none;
+}
+
+.student-row td table thead tr th {
+    background-color: #d7d0c3 !important;
+}
+
+.student-row td table {
+    border-color: #0e1726;
+    font-size: 16px !important;
+    /* background-color: #afaca6 !important; */
+}
+
+.studentTable {
+    /* padding-left: 30px; */
+    /* width: 70%; */
+    margin:  auto;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.table-borderedMushref thead tr th {
+    border-color: #0e1726;
+    font-size: 16px !important;
+    background-color: #a5a5a5 !important;
+}
+
+.table-borderedMushre {
+    border-color: #0e1726 !important;
+    /* background-color: #e1ab1e !important; */
+}
+
+
+.label-color {
+    color: #dfe2d8 !important;
+}
+
+.optionMushref {
+    background-color: #fff !important;
+
+}
+
+.lable-add {
+    margin: .8rem !important;
+}
+
+.btn-addStudent {
+    border-radius: 50px !important;
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.hidden {
+    display: none;
+}
+
+.tathbeetRow {
+    background-color: #ffffff !important;
+}
+
+.tathbeetTitel {
+    font-size: 16px !important;
+
+}
+
+.form-label {
+    margin-right: 1rem !important;
+}
+
+
+/************************************************************************/
+
+
+.msgMuraqeb{
+    text-align: center;
+    background-color: #a86666;
+    margin-right: 5rem;
+    margin-bottom: 24px;
+}
+
+.msgMuraqeb-success{
+    text-align: center;
+    background-color: #d6dfc5;
+    margin-right: 5rem;
+    margin-bottom: 24px;
+}
+
+.titleDawra {
+    color: #50647e;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.icon-feedBack{
+    padding-right: 9rem;
+    margin-bottom: 24px;
+    margin-top: -1rem;
+}
+.icon-feedBack svg {
+    stroke: #950505;
+    transition: stroke 0.3s ease;
+}
+.icon-feedBack svg:hover {
+    stroke: rgb(81, 81, 81);
+}
+
+
+
+
+
+
+
+
+/* دورات التثبيت */
+
+.table-dawratTathbeet thead tr th {
+    border-color: #0e1726;
+    font-size: 16px !important;
+    background-color: #ccd9cf !important;
+}
+
+.head_join{
+    width: 100%;
+}

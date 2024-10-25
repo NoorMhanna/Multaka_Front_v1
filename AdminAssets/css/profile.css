@@ -1,0 +1,200 @@
+
+.layout-top-spacing-profile{
+    margin-top: 4rem;
+
+}
+
+/*  */
+.scrollable-div {
+    height: fit-content;;
+    max-height: 660px;
+    overflow-y: auto;
+}
+
+.scrollableCover-div {
+    /* height: fit-content;; */
+    max-height: 830px;
+    overflow-y: auto;
+}
+.user-profile{
+    padding-right: 20px;
+}
+
+.lableForHeadTabla{
+    color: #515365;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+/* for pop */
+
+.popEditHeader,
+.bodyEdit {
+    background-color: #c1cbd7;
+    padding: 25px;
+}
+
+.modal-content-pop{
+
+    background: #0e1726;
+    border-radius: 1rem !important;
+}
+
+/******************************** call whatsApp ***********************************/
+
+.custom-confirm-button {
+    background-color: #4b953d !important;
+    color: white;
+}
+
+.custom-close-button{
+    background-color: #cd3939 !important;
+    color: white;
+}
+
+/******************************** reating ****************************************/
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 4vw;
+    color: #FFD600;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important;
+}
+
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4;
+}
+
+.calenderImg{
+    border-radius: 3px !important;
+}
+
+@media screen and (max-width: 500px) {
+    .rating>label  {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .starRating>label  {
+        font-size: 6vw !important;
+    }
+}
+@media screen and (max-width: 825px) {
+    .rating>label  {
+        font-size: 5vw !important;;
+        padding-right: 10px !important;;
+
+    }
+}
+
+/* ----------------------------------------------------------------------- */
+/* ---------------------------Certificates-------------------------------- */
+/* ------------------------------------------------------------------------ */
+
+
+.Certificates-icon {
+    margin-bottom: 24px;
+}
+
+.Certificates-icon svg {
+    stroke: #950505;
+    transition: stroke 0.3s ease;
+}
+
+.Certificates-icon svg:hover {
+    stroke: rgb(81, 81, 81);
+}
+
+.textTitelCertificate{
+    font-size: 20px;
+}
+
+.textDateCertificate{
+    font-size: 17px;
+}
+
+/* ---------------------------------------------------- */
+
+.mushref-ratting  {
+    width: 85% !important;
+    height: 85% !important;
+}
+.starRating{
+    padding-right: 10px;
+}
+
+
+.starRating>label {
+    margin: -18px;
+    position: relative;
+    width: 1em;
+    padding-right: 7rem;
+    font-size: 2vw;
+        color: #FFD600;
+    cursor: pointer;
+}
+
+.feedBack-text{
+    padding-right: 7rem;
+    color: #888ea8;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-top: -12px;
+}
+
+/**************************************  */
+
+.popEditHeader{
+    border-color: #0e1726;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+}
+
+
+
+.labelEdit-color{
+    color: #0e1726;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.btn-saveChangeRating, .btn-closeProfile , .btn-addCertificate ,.btn-saveEditCertificate {
+    font-size: 16px;
+}
+
+
